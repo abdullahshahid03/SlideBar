@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Collapsible Sidebar Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <button class="toggle-btn">☰</button>
+
+  <!-- Sidebar -->
+  <div class="sidebar closed">
+    <div class="logo">MyApp</div>
+    <ul class="nav-links">
+      <li><a href="#home">🏠 Home</a></li>
+      <li><a href="#features">✨ Features</a></li>
+      <li><a href="#about">ℹ️ About</a></li>
+      <li><a href="#contact">📧 Contact</a></li>
+    </ul>
+  </div>
+
+
+  <div class="content">
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h1>Welcome to MyApp</h1>
+        <p>Your ultimate productivity companion with a modern sidebar layout.</p>
+        <button class="hero-btn">Get Started</button>
+      </div>
+    </section>
+
+   
+    <section id="features" class="features">
+      <h2>Features</h2>
+      <div class="feature-cards">
+        <div class="card">
+          <h3>⚡ Fast</h3>
+          <p>Lightning fast performance and smooth navigation.</p>
+        </div>
+        <div class="card">
+          <h3>📱 Responsive</h3>
+          <p>Works beautifully on mobile, tablet, and desktop.</p>
+        </div>
+        <div class="card">
+          <h3>🎨 Stylish</h3>
+          <p>Modern dark UI with collapsible sidebar.</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p>
+        This project is built as part of a web development task. 
+        It demonstrates a collapsible sidebar navigation with smooth animations,
+        modern UI design, and multiple content sections for a realistic layout.
+      </p>
+    </section>
+
+    
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    
+    <footer>
+      <p>© 2025 MyApp | All rights reserved</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
